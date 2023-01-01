@@ -1,5 +1,4 @@
 package mate.academy;
-
 public class Employee extends Person{
 
     private double baseSalary;
@@ -17,5 +16,10 @@ public class Employee extends Person{
     }
     public void setBaseSalary(double baseSalary) {
         this.baseSalary = baseSalary;
+    }
+
+    @Override
+    public String sayHello() {
+        return " Employee Hello ";
     }
 }

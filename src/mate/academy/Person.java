@@ -1,10 +1,16 @@
 package mate.academy;
 
-public class Person {
+public abstract class Person {
     private int age;
     private String name;
 
+    public Person() {
+    }
 
+    public Person (int age, String name) {
+        this.age = age;
+        this.name = name;
+    }
     //age
     public int getAge() {
         return age;
@@ -25,4 +31,6 @@ public class Person {
     public String getPersonalInfo() {
         return "age: " + age + ", name: " + name;
     }
+
+    public abstract String sayHello();
 }
