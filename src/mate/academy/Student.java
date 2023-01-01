@@ -4,7 +4,16 @@ public class Student extends Person{
 
     private String favoriteSubject;
 
-    public String getFavoriteSubject() { return favoriteSubject; }
-    public void setFavoriteSubject(String favoriteSubject) { this.favoriteSubject = favoriteSubject; }
+    public String getFavoriteSubject() {
+        return favoriteSubject;
+    }
+    public void setFavoriteSubject(String favoriteSubject) {
+        this.favoriteSubject = favoriteSubject;
+    }
+
+    @Override
+    public String getPersonalInfo() {
+        return "i am Student Alice";
+    }
 
 }

@@ -4,8 +4,28 @@ public class Employee extends Person{
 
     private double baseSalary;
 
-    public Employee(double baseSalary) { this.baseSalary = baseSalary; }
+    public Employee(double baseSalary) {
+        this.baseSalary = baseSalary;
+    }
 
-    public double getSalary() { return baseSalary * 1.1; }
+    public double getSalary() {
+        return baseSalary * 1.1;
+    }
+
+    public double getSalary(double coefficient) {
+        return baseSalary * coefficient;
+    }
+
+    public double getBaseSalary() {
+        return baseSalary;
+    }
+    public void setBaseSalary(double baseSalary) {
+        this.baseSalary = baseSalary;
+    }
+
+    @Override
+    public String getPersonalInfo() {
+        return "i am Bob";
+    }
 
 }

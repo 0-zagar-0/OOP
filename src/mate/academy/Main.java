@@ -3,10 +3,11 @@ package mate.academy;
 public class Main {
     public static void main(String[] args) {
 
-        Person bob = new Employee(100);
+        Employee bob = new Employee(100);
         bob.setName("Bob");
         bob.setAge(23);
-
+        double salary = bob.getSalary();
+        double bobSalary = bob.getSalary(1.2);
 
         Student alice = new Student();
         alice.setName("Alice");
