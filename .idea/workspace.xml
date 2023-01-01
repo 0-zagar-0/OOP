@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dbc6969-e9dd-446a-a73e-ec9cbb1cb1f5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mate/academy/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mate/academy/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mate/academy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mate/academy/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mate/academy/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mate/academy/Student.java" afterDir="false" />
-    </list>
+    <list default="true" id="0dbc6969-e9dd-446a-a73e-ec9cbb1cb1f5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,31 +32,5 @@
       <updated>1672595752420</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/mate/academy/Main.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/mate/academy/Person.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/mate/academy/Employee.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/mate/academy/Student.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
