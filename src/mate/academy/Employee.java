@@ -18,4 +18,9 @@ public class Employee extends Person{
     public void setBaseSalary(double baseSalary) {
         this.baseSalary = baseSalary;
     }
+
+    @Override
+    public String getPersonalInfo() {
+        return "Employee's salary: " + getSalary();
+    }
 }

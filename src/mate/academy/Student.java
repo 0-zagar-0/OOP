@@ -11,4 +11,8 @@ public class Student extends Person{
         this.favoriteSubject = favoriteSubject;
     }
 
+    @Override
+    public String getPersonalInfo() {
+        return "I am student. My name is: " + getName();
+    }
 }
