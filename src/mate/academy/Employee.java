@@ -8,4 +8,17 @@ public class Employee extends Person{
 
     public double getSalary() { return baseSalary * 1.1; }
 
+    public double getBaseSalary() {
+        return baseSalary;
+    }
+
+    public void setBaseSalary(double baseSalary) {
+        this.baseSalary = baseSalary;
+    }
+
+    @Override
+    public String getPersonalInfo() {
+        return "salary: " + getSalary();
+    }
+
 }

@@ -7,4 +7,9 @@ public class Student extends Person{
     public String getFavoriteSubject() { return favoriteSubject; }
     public void setFavoriteSubject(String favoriteSubject) { this.favoriteSubject = favoriteSubject; }
 
+    @Override
+    public String getPersonalInfo() {
+        return "favorite subject: " + getFavoriteSubject();
+    }
+
 }
