@@ -19,4 +19,9 @@ public class Cat extends Animal {
                 " age='" + getAge() + '\'' +
                 " color='" + color + '\'' + '}';
     }
+
+    @Override
+    public String getInfo() {
+        return super.getInfo() + ", color: " + color;
+    }
 }

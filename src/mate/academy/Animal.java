@@ -22,4 +22,8 @@ public class Animal {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public String getInfo() {
+        return "Name: " + name + ", age: " + age;
+    }
 }

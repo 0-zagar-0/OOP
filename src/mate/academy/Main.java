@@ -7,5 +7,6 @@ public class Main {
 
         System.out.println(billy);
 
+        System.out.println(billy.getInfo());
     }
 }
